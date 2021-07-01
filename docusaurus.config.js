@@ -6,13 +6,13 @@ module.exports = {
   title: 'Wordparrot Docs',
   tagline: 'Learn about the platform.',
   url: 'https://wordparrot.github.io',
-  baseUrl: '/docs/',
+  baseUrl: '/documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'wordparrot', // Usually your GitHub org/user name.
   trailingSlash: false,
-  projectName: 'docs', // Usually your repo name.
+  projectName: 'documentation', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Wordparrot Docs',
