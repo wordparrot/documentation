@@ -12,7 +12,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'wordparrot', // Usually your GitHub org/user name.
   trailingSlash: false,
-  projectName: 'docs.github.io', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Wordparrot Docs',
