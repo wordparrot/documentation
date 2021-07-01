@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Wordparrot Documentation',
   tagline: 'Learn about to make pipelines, share content, and connect to the API.',
-  url: 'https://docs.wordparrot.com',
+  url: 'https://wordparrot.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
