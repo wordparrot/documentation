@@ -2,4 +2,4 @@
 sidebar_position: 1
 ---
 
-Introduction to Wordparrot
+Wordparrot is an automation platform.
