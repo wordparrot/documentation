@@ -6,7 +6,7 @@ module.exports = {
   title: 'Wordparrot Documentation',
   tagline: 'Learn about to make pipelines, share content, and connect to the API.',
   url: 'https://wordparrot.github.io',
-  baseUrl: '/documentation/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

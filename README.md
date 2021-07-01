@@ -1,6 +1,13 @@
-# Website
+# Wordparrot Documentation Site
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
+***
+
+### Pull requests welcome.
+
+***
+
 
 ## Installation
 
