@@ -3,8 +3,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Wordparrot Docs',
-  tagline: 'Learn about the platform.',
+  title: 'Wordparrot Documentation',
+  tagline: 'Learn about to make pipelines, share content, and connect to the API.',
   url: 'https://wordparrot.github.io',
   baseUrl: '/documentation/',
   onBrokenLinks: 'throw',
@@ -18,7 +18,7 @@ module.exports = {
       title: 'Wordparrot Docs',
       logo: {
         alt: 'Logo',
-        src: 'img/parrot_sm.png',
+        src: 'img/parrot_og_rounded.png',
       },
       items: [
         {
@@ -27,34 +27,34 @@ module.exports = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
       ],
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
+      // links: [
+      //   {
+      //     title: 'Docs',
+      //     items: [
+      //       {
+      //         label: 'Tutorial',
+      //         to: '/docs/intro',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'Community',
+      //     items: [
             
-          ],
-        },
-        {
-          title: 'More',
-          items: [
+      //     ],
+      //   },
+      //   {
+      //     title: 'More',
+      //     items: [
             
-          ],
-        },
-      ],
+      //     ],
+      //   },
+      // ],
       copyright: `Copyright © ${new Date().getFullYear()} The Wordparrot Corporation.`,
     },
     prism: {
