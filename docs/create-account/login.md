@@ -11,4 +11,5 @@ Wordparrot only requires you to provide an email address.
 ---
 ### Social media authentication available
 ---
+
 Use your Google account to login, or Apple account if you're using iPhone.
