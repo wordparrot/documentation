@@ -6,7 +6,7 @@ module.exports = {
   title: 'Wordparrot Docs',
   tagline: 'Learn about the platform.',
   url: 'https://wordparrot.github.io.',
-  baseUrl: '/docusaurus/',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
