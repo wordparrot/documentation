@@ -3,6 +3,8 @@ sidebar_position: 6
 title: Credential
 ---
 
+![Credential](/img/docs/create-pipeline/concepts/credential.png)
+
 These are the special keys you'll often need to access services like Twitter via their APIs. 
 
 While we can't create credentials for you, we can help you through the process of getting them. In most cases, you'll only need to do this once.

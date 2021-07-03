@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Intro
+title: Summary
 ---
 
 In order to start building automations, get familiar with the major concepts of the platform.
