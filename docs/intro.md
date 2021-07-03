@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Platform Introduction
 ---
 
 Wordparrot is an shareable automation platform. 

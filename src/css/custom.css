@@ -35,3 +35,7 @@ html[data-theme='light'] footer {
 html[data-theme='light'] .footer__copyright {
   color: #232323;
 }
+
+article img {
+  border-radius: 6px;
+}
