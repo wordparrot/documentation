@@ -55,7 +55,7 @@ module.exports = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} The Wordparrot Corporation.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Wordparrot.`,
     },
     prism: {
       theme: lightCodeTheme,
