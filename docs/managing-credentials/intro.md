@@ -41,3 +41,14 @@ Wordparrot bears no responsibility for violation of a third party's API policies
 ### Don't share API keys
 
 Your API key belongs specifically to you. Do not share it with anyone.
+
+
+### We value your privacy and security
+
+Your security and privacy is valued above all other things. At no point will we ever sell or give away access to your accounts with others, or use your accounts for our own purposes. 
+
+Your accounts belong to you, and we only perform automating activities with them from the pipelines you create.
+
+For more information, you can read our privacy policy.
+
+[Terms and Conditions](https://www.wordparrot.com/privacy)
