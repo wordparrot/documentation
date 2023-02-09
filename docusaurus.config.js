@@ -15,7 +15,7 @@ module.exports = {
   projectName: 'documentation', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Wordparrot Docs',
+      title: 'Wordparrot',
       logo: {
         alt: 'Logo',
         src: 'img/parrot_og_rounded.png',
@@ -25,7 +25,7 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
       ],

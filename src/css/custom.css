@@ -36,6 +36,16 @@ html[data-theme='light'] .footer__copyright {
   color: #232323;
 }
 
+html {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
 article img {
   border-radius: 6px;
+}
+
+.menu {
+  margin: 0 !important;
+  padding-top: 30px !important;
+  font-size: 16px;
 }
