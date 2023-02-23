@@ -1,87 +1,137 @@
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+// import JSONSchemaViewer from "@theme/JSONSchemaViewer"
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
-  title: 'Wordparrot Documentation',
-  tagline: 'Learn about to make pipelines, share content, and connect to the API.',
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: 'Wordparrot',
+  tagline: 'Product Documentation',
+  favicon: 'img/favicon.ico',
+
+  // Set the production url of your site here
   url: 'https://wordparrot.github.io',
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'wordparrot', // Usually your GitHub org/user name.
+  projectName: 'documentation', // Usually your repo name.
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'wordparrot', // Usually your GitHub org/user name.
-  trailingSlash: false,
-  projectName: 'documentation', // Usually your repo name.
-  themeConfig: {
-    navbar: {
-      title: 'Wordparrot',
-      logo: {
-        alt: 'Logo',
-        src: 'img/parrot_og_rounded.png',
-      },
-      items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Documentation',
-        },
-        // {to: '/blog', label: 'Blog', position: 'left'},
-      ],
-    },
-    footer: {
-      style: 'dark',
-      // links: [
-      //   {
-      //     title: 'Docs',
-      //     items: [
-      //       {
-      //         label: 'Tutorial',
-      //         to: '/docs/intro',
-      //       },
-      //     ],
-      //   },
-      //   {
-      //     title: 'Community',
-      //     items: [
-            
-      //     ],
-      //   },
-      //   {
-      //     title: 'More',
-      //     items: [
-            
-      //     ],
-      //   },
-      // ],
-      copyright: `Copyright © ${new Date().getFullYear()} Wordparrot.`,
-    },
-    prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
-    },
+
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
   },
+
+  themes: ["docusaurus-json-schema-plugin"],
+
   presets: [
     [
-      '@docusaurus/preset-classic',
-      {
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/wordparrot/docs/edit/master/website/',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/wordparrot/docs/edit/master/website/blog/',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      },
+      }),
     ],
   ],
+
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      // Replace with your project's social card
+      image: 'img/docusaurus-social-card.jpg',
+      navbar: {
+        title: 'Wordparrot',
+        logo: {
+          alt: 'My Site Logo',
+          src: 'img/parrot_og_rounded.png',
+        },
+        items: [
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Tutorial',
+          },
+          {href: 'https://www.wordparrot.com/', label: 'The Company', position: 'right'},
+        ],
+      },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Links',
+            items: [
+              {
+                label: 'Wordparrot',
+                to: 'https://www.wordparrot.com',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/docusaurus',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'DevOps Blog',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/facebook/docusaurus',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} Wordparrot Corporation.`,
+      },
+      prism: {
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+      },
+    }),
 };
+
+module.exports = config;

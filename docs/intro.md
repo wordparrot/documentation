@@ -3,8 +3,10 @@ sidebar_position: 1
 title: Welcome!
 ---
 
-Wordparrot is an shareable automation platform. 
+Wordparrot is a shareable automation platform.
 
-On the platform, you can create a series of programmable actions, like fetching data from a server, sending emails, or updating your social media page. These are called 'pipelines'.
+Wordparrot connects the apps that you use together to make an automated process. These processes can save you many hours at your job or personal projects. They work best when deployed across a team or department, to reduce its workload in inefficient tasks.
 
-Best of all, you don't always have to think of how to make pipelines yourselves. Community users can create pipelines and you can subscribe, to save on the work of having to duplicate this yourself.
+If you know tools like Zapier, some of its core features closely represent the same software features.
+
+Wordparrot's core application is open-source, and generally packaged via Docker container.
